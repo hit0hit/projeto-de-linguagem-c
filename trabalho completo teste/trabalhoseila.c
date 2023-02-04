@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdbool.h>
-//#include <locale.h>
+#include <locale.h>
 #include <time.h>
 #include <stdlib.h>
 #include <windows.h>
@@ -23,15 +23,6 @@ int main()
     float valor = 100;
 
     char local[100]; // para a localização
-
-
-
-    // system("start senpai.mp3"); //iniciar musica
-    // musica ...........
-    // referencia da musica ..............
-
-   
-   
 
     /* data */
     agora = time(NULL);
